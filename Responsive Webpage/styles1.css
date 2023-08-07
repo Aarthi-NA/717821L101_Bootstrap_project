@@ -1,0 +1,53 @@
+/* Custom CSS goes here */
+body {
+  padding-top: 60px;
+}
+#h1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: red;
+  }
+  .container {
+    text-align: center;
+  }
+  
+  .highlight-center {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+/* Style for the carousel indicators */
+.carousel-indicators {
+  bottom: 10px;
+}
+
+/* Style for the cards */
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Style for the grid layout */
+.row {
+  justify-content: center;
+}
+
+/* Responsive breakpoints for the grid layout */
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
